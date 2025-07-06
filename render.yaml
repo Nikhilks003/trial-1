@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: breakout-bot
+    env: python
+    repo: https://github.com/Nikhilks003/trial-1
+    branch: main
+    startCommand: python main.py
